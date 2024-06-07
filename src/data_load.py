@@ -2,8 +2,8 @@ import argparse
 import json
 from sklearn.datasets import load_iris
 from typing import Text
-
-from src.utils import load_config
+#change
+from utils import load_config
 
 
 def data_load(config_path: Text) -> None:

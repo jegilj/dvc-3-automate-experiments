@@ -2,8 +2,9 @@ import argparse
 import pandas as pd
 from typing import Text
 
-from src.utils import load_config
+#from src.utils import load_config
 
+from utils import load_config
 
 def get_features(dataset):
 

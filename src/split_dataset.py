@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from typing import Text
 
-from src.utils import load_config
+from utils import load_config
 
 
 def split_train_test(config_path: Text) -> None:

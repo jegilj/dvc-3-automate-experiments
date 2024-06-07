@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.metrics import f1_score
 from typing import Text
 
-from src.utils import load_config
+from utils import load_config
 
 
 def evaluate(config_path: Text) -> None:
